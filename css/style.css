@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     color: #000000;
+    padding: 15px 15px;
 }
 
 a:hover {
@@ -9,43 +10,95 @@ a:hover {
 }
 
 body {
+    
     color: #000000;
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 13px;
     text-align: center;
+    margin: 0;
 }
-/*******************************class selectors*************************/
+/*******************************container selectors*************************/
+
+.first-container {
+    border: 20px;
+    height: 50px;
+    
+}
+
+.second-container {
+    height: 250px;
+    padding-top: 62px;
+    
+}
+.third container {
+    height: 150px;
+}
+
+.fourth-container   {
+    height: 200px;
+    padding: 30px 0 95px;
+    
+}
 
 .bottom-container {
-    height: 100px;
-    color: gray;
-}
-.middle-container {
-    height: 500px;
-    color: white;
-    position: relative;
-}
-.top-container {
-    height: 50px;
-    color: red;
+    height: 40px;
+    background-color: #F2F2F2;
 }
 
+/******************class selectors*****************/
 .google-logo {
-    right: 500px;
-    position: absolute;
-    top: 150px;
-    width: 30%;
+    display: inline-block;
+    width: 23%;
+    height: auto;
+    position: relative;
+    top: 75px;
 }
 
 .google-search {
-    position: absolute;
-    bottom: 100px;
-    right: 750px
+    
+    margin-right: 15px;   
+
+}
+.search-buttons{
+        margin: 25px, auto;
+    }
+/*****************top div**************/
+.about {
+    float: left;
 }
 
-.feeling-lucky {
-    position: absolute;
-    bottom: 100px;
-    right: 600px;
+.store {
+    float: left;
 }
+
+.gmail {
+    float: right;
+}
+.images {
+    float:right;
+}
+
+/*****************bottom div************/
+.advertising {
+    float: left;
+}
+.business {
+    float: left;
+}
+.how-search-works {
+    float: left;
+}
+.privacy {
+    float: right;
+}
+.terms {
+    float: right;
+}
+.settings {
+    float: right;
+}
+
+/***************search button***********/
+
+
