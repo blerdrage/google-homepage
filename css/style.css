@@ -1,8 +1,51 @@
 a {
     text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #333333;
+    text-decoration: underline;
 }
 
 body {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+/*******************************class selectors*************************/
 
+.bottom-container {
+    height: 100px;
+    color: gray;
+}
+.middle-container {
+    height: 500px;
+    color: white;
+    position: relative;
+}
+.top-container {
+    height: 50px;
+    color: red;
+}
 
+.google-logo {
+    right: 500px;
+    position: absolute;
+    top: 150px;
+    width: 30%;
+}
+
+.google-search {
+    position: absolute;
+    bottom: 100px;
+    right: 750px
+}
+
+.feeling-lucky {
+    position: absolute;
+    bottom: 100px;
+    right: 600px;
 }
